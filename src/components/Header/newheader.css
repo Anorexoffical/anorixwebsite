@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+
+body {
+    background-color: #141313;
+}
+
+
+button:focus,
+.navbar-toggler:focus{
+    outline: 0;
+    box-shadow: none;
+}
+
+.menuheader{
+    background: #08100a;
+    padding: 15px 0;
+}
+
+.menuheader .navbar{
+    box-shadow: 0px 50px 60px 30px #070c2f;
+}
+
+.menuheader .navbar-brand {
+    /* font-size: 14px;
+    font-weight: 700;
+    color: white; */
+    /* -webkit-text-stroke: white 1px; */
+
+    color: #0b0b0b;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.menuheader .navbar-brand:hover {
+    color: #66cfff;
+} 
+
+.menuheader .navbar-nav .nav-item{
+    margin: 0 10px;
+
+}
+
+.menuheader .navbar-nav .nav-link {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+}
+
+.menuheader .navbar-nav .nav-link:hover {
+    color: #66cfff;
+}
+
+.menuheader .dropdown-menu {
+    background-color:#08100a;
+    margin: 0;
+
+}
+
+.menuheader .dropdown-menu .heading{
+    /* color: white;
+    font-weight: bold;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgb(0,0,0,.125); 
+    margin: 0;  */
+
+    color: #66cfff;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgb(0,0,0,.125);
+    margin: 0;
+    padding-bottom: 12px;
+
+
+
+}
+
+.menuheader .dropdown-menu .list-group-item:hover{
+    color: #66cfff;
+}
+
+.menuheader .dropdown-mega .dropdown-menu{
+    width: 100%;
+}
+
+.menuheader .list-group .list-group-item{
+    color: white;
+    background-color: #08100a;
+    transition: color 0.3s ease;
+
+}
+
+.menuheader .list-group-item{
+    font-size: 16px;
+    border: 0;
+    border-bottom:1px solid rgb(0,0,0,.125);
+    padding: 12px 0;
+}
+
+.menuheader .btn {
+    background-color: #66cfff;
+}
+
+@media (max-width : 968px) {
+
+    .menuheader .navbar-brand{
+        font-size: 30px;
+    }
+    .menuheader .navbar-nav .nav-item{
+        margin: 5px 10px;
+    }
+    .menuheader form {
+        margin:30px 0;
+    }
+
+}

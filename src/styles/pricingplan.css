@@ -1,0 +1,41 @@
+.section{
+    margin-top: 8%;
+}
+
+.empheading {
+    font-size: 36px;
+    background: linear-gradient(to right, #00aaff, #66cfff); 
+    /* background: linear-gradient(to right, #66abff, #8cbaf3);  */
+    -webkit-background-clip: text;
+    background-clip: text; 
+    color: transparent;
+    margin-bottom: 5%;
+  }
+  
+  .empowering-text {
+    color: white; 
+  }
+
+  .choosetxt{
+    color: #66cfff;
+    font-size: 14px;
+  }
+
+  .servicename{
+    margin-top: 50px;
+  }
+
+.btn-outline-light {
+    color: white;
+    border: 1px solid white; 
+    background: transparent; 
+    transition: all 0.3s ease-in-out;
+}
+
+.btnclass {
+    color: white;
+    background: transparent !important; 
+    border: 2px solid #007bff !important; 
+    transition: all 0.3s ease-in-out;
+}
+

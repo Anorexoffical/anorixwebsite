@@ -1,0 +1,90 @@
+.mainsection{
+    margin-top: 8%;
+
+}
+
+.empheading {
+    font-size: 32px;
+    background: linear-gradient(to right, #00aaff, #66cfff); 
+    -webkit-background-clip: text;
+    background-clip: text; 
+    color: transparent;
+    /* color: #007bff; */
+    margin-bottom: 2%;
+    word-break: keep-all;
+    text-wrap: balance;
+    hyphenate-character: "-";
+  }
+  
+  .empowering-text {
+    color: white; 
+  }
+
+  .designcol{
+    margin-left: 15%;
+
+  }
+
+  .card{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    flex-direction: column;
+
+    /* display: inline-flex; */
+  }
+
+  .learn-more-btn {
+    background-color: #007bff;
+    color: white;
+    font-weight: 500;
+    border-radius: 20px;
+    padding: 10px 40px;
+    border: 2px solid #007bff; 
+    transition: all 0.3s ease-in-out;
+    align-self: flex-start; 
+    margin-top: auto;
+  }
+
+  .learn-more-btn:hover {
+    background-color: #0056b3; 
+    color: white;
+    border: 2px solid #0056b3; 
+  }
+
+  .info-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 0.3s;
+
+}
+
+.info-card:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.view-more-btn {
+    background-color: transparent;
+    color: #00aaff;
+    border: 2px solid #00aaff;
+    border-radius: 20px;
+    padding: 8px 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.view-more-btn:hover {
+    /* background-color: #00aaff; */
+    background-color: #007bff;
+    color: white;
+}
+
+.carddiv{
+    margin-bottom: 2%;
+}
+
